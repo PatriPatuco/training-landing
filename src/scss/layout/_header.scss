@@ -6,8 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.header__menu-icon {
-  width: 0.7rem;
+  &-icon {
+    width: 0.7rem;
+  }
 }
