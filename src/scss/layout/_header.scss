@@ -1,5 +1,12 @@
-.page__header {
+.header__menu {
+  background-color: $orange;
+  width: 2rem;
+  height: 2rem;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu-icon {
+  width: 0.7rem;
 }
