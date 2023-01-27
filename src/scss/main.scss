@@ -1,8 +1,3 @@
-*{
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
-
 @import 'core/variables';
 @import 'core/reset';
 @import 'components/links';
@@ -11,3 +6,8 @@
 @import 'layout/section1-intro';
 @import 'layout/section2-features';
 @import 'layout/footer';
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}

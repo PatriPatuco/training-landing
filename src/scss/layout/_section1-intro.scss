@@ -1,44 +1,67 @@
 .main__intro {
-    padding: 3rem 1rem;
+  margin-top: 6rem;
+  padding: 5rem 2rem;
 
-    &-subtitle{
-        font-size: $small-size;
-        font-family: $font-main;
-        color: $orange;
-        padding-bottom: 0.8rem;
+  @media all and (min-width: 768px) {
+    margin-top: 8rem;
+    padding: 6rem 4rem;
+  }
+
+  &-subtitle {
+    font-size: 1.4rem;
+    font-family: $font-main;
+    color: $orange;
+    padding-bottom: 1rem;
+
+    @media all and (min-width: 768px) {
+      font-size: 1.6rem;
+      padding-bottom: 2rem;
     }
+  }
 
-    &-title{
-        font-size: $h2-size;
-        font-family: $font-title;
-        padding-bottom: 0.8rem;
+  &-title {
+    font-size: 2.4rem;
+    font-family: $font-title;
+    padding-bottom: 1rem;
+
+    @media all and (min-width: 768px) {
+      font-size: 3.2rem;
+      padding-bottom: 2rem;
     }
+  }
 
-    &-text{
-        font-size: $regular-size;
-        font-family: $font-main;
-        color: $dark-grey;
-        line-height: 1.8rem;
-        padding-bottom: 1.2rem;
+  &-text {
+    font-size: 1.8rem;
+    font-family: $font-main;
+    color: $dark-grey;
+    line-height: 3rem;
+    padding-bottom: 2rem;
+
+    @media all and (min-width: 768px) {
+      font-size: 2rem;
+      padding-bottom: 2rem;
     }
+  }
 
-    &-button{
-        height: 3rem;
-        width: 10rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid 2px $orange;
-        border-radius: 10rem;
+  &-button {
+    height: 4.5rem;
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px $orange;
+    border-radius: 10rem;
 
-            &-text{
-            text-decoration: none;
-            font-size: $regular-size;
-            font-family: $font-main;
-            font-weight: bold;
-            color: $orange;
-            }
+    &-text {
+      text-decoration: none;
+      font-size: 1.8rem;
+      font-family: $font-main;
+      font-weight: bold;
+      color: $orange;
+
+      @media all and (min-width: 768px) {
+        font-size: 2rem;
+      }
     }
-
-    
+  }
 }

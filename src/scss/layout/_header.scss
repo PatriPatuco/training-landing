@@ -1,13 +1,22 @@
 .header__menu {
   position: fixed;
   background-color: $orange;
-  width: 2rem;
-  height: 2rem;
+  width: 3.4rem;
+  height: 3.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
 
+  @media all and (min-width: 768px) {
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+
   &-icon {
-    width: 0.7rem;
+    width: 1.4rem;
+
+    @media all and (min-width: 768px) {
+      width: 1.5rem;
+    }
   }
 }

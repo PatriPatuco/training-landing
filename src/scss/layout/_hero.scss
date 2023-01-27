@@ -1,45 +1,73 @@
-.main__hero{
-    height: 100vh;
-    
-    &-image{
+.main__hero {
+  height: 100vh;
+
+  &-image {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     background-image: url("../images/cover.jpeg");
-    background-size:cover;
+    background-size: cover;
     background-position: -350px;
     height: 100%;
-    padding: 3rem;
-    }
+    padding: 4rem 2rem;
 
-    &-title{
-    font-size: $h1-size;
+    @media all and (min-width: 768px) {
+        background-position: -60px;
+        padding: 5rem;
+    }
+  }
+
+  &-title {
+    font-size: 3rem;
     font-family: $font-title;
     color: $white;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
     text-align: center;
-    line-height: 3rem;
-    }
+    line-height: 5rem;
 
-    &-subtitle{
-        font-size: $h3-size;
-        font-family: $font-main;
-        color: $white;
-        text-align: center;
-        line-height: 1.3rem;
-        font-weight: 400;
+    @media all and (min-width: 768px) {
+        font-size: 7.5rem;
+        line-height: 10rem;
     }
+  }
 
-    &-scroll-down{
-        background-color: $white;
+  &-subtitle {
+    font-size: 2rem;
+    font-family: $font-main;
+    color: $white;
+    text-align: center;
+    line-height: 2.4rem;
+
+     @media all and (min-width: 768px) {
+        font-size: 2.4rem;
+        line-height: 4rem;
+    }
+  }
+
+  &-scroll-down {
+    background-color: $white;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    @media all and (min-width: 768px) {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+  }
+
+   &-button-scroll-down-icon {
+        width: 1.9rem;
+        height: 1rem;
+
+        @media all and (min-width: 768px) {
         width: 2.2rem;
-        height: 2.2rem;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
+        height: 1.4rem;
+    }
     }
 }
-

@@ -1,59 +1,88 @@
-.main__features{
-    background-color: $dark-white;
-    padding: 2rem 3.4rem;
+.main__features {
+  background-color: $dark-white;
+  padding: 3rem 5rem 1rem 5rem;
 
-    &-title{
-        text-align: center;
-        font-size: $h3-size;
-        font-family: $font-title;
-    }
+  @media all and (min-width: 768px) {
+    padding: 6rem 5rem 2rem 5rem;
+  }
 
-    &-grid{
-        display: grid;
-        grid-template-rows: repeat(3,1fr);
-        grid-gap: 2.7rem;
-        margin: 3rem 0;
-        text-align: center;
-        font-size: $regular-size;
-        line-height: 2rem;
-    }
+  &-title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: $font-title;
 
-    &-subtitle {
-       font-family: $font-title;
+    @media all and (min-width: 768px) {
+      font-size: 2.8rem;
     }
+  }
+
+  &-grid {
+    display: grid;
+    grid-gap: 3rem;
+    margin: 3rem 0;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 3rem;
+
+    @media all and (min-width: 768px) {
+      grid-template: "box1 box2 box3";
+      margin: 5rem 0;
+    }
+  }
+
+  &-subtitle {
+    font-family: $font-title;
+
+    @media all and (min-width: 768px) {
+      font-size: 2.4rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+  &-text {
+    font-family: $font-main;
+
+    @media all and (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  &-button {
+    background-color: $orange;
+    height: 4.5rem;
+    width: 18.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rem;
+    margin: 0 auto;
 
     &-text {
-        font-family: $font-main;
-    }
+      text-decoration: none;
+      font-size: 1.8rem;
+      font-family: $font-main;
+      color: $white;
 
-    &-button{
-        background-color: $orange;
-        height: 2.8rem;
-        width: 13rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 10rem;
-        margin: 0 auto;
-
-            &-text{
-            text-decoration: none;
-            font-size: $regular-size;
-            font-family: $font-main;
-            color: $white;
-            }
+      @media all and (min-width: 768px) {
+        font-size: 2rem;
+      }
     }
+  }
 
-    &-scroll-up{
-        background-color: $white;
-        width: 2.6rem;
-        height: 2.6rem;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        transform: translateY(3.3rem);
-        box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.2);
+  &-scroll-up {
+    background-color: $white;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transform: translateY(3rem);
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.2);
+
+    @media all and (min-width: 768px) {
+      transform: translateY(4rem);
     }
+  }
 }
