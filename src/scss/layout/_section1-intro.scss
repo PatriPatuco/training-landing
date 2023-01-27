@@ -1,5 +1,5 @@
 .main__intro {
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 
     &-subtitle{
         font-size: $small-size;
@@ -19,24 +19,26 @@
         font-family: $font-main;
         color: $dark-grey;
         line-height: 1.8rem;
-        padding-bottom: 0.8rem;
+        padding-bottom: 1.2rem;
     }
 
     &-button{
         height: 3rem;
-        width: 9rem;
+        width: 10rem;
         display: flex;
         align-items: center;
         justify-content: center;
         border: solid 2px $orange;
         border-radius: 10rem;
+
+            &-text{
+            text-decoration: none;
+            font-size: $regular-size;
+            font-family: $font-main;
+            font-weight: bold;
+            color: $orange;
+            }
     }
 
-    &-button-text{
-        text-decoration: none;
-        font-size: $regular-size;
-        font-family: $font-main;
-        font-weight: bold;
-        color: $orange;
-    }
+    
 }
