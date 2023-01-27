@@ -1,10 +1,13 @@
 .main__intro {
-  margin-top: 6rem;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
 
   @media all and (min-width: 768px) {
-    margin-top: 8rem;
-    padding: 6rem 4rem;
+    padding: 4rem 4rem;
+  }
+
+  @media all and (min-width: 1280px) {
+    font-size: 1.6rem;
+    padding: 7rem 20rem;
   }
 
   &-subtitle {
@@ -51,6 +54,10 @@
     justify-content: center;
     border: solid 2px $orange;
     border-radius: 10rem;
+
+    @media all and (min-width: 768px) {
+      margin-bottom: 2rem;
+    }
 
     &-text {
       text-decoration: none;

@@ -8,13 +8,21 @@
     justify-content: flex-end;
     background-image: url("../images/cover.jpeg");
     background-size: cover;
-    background-position: -350px;
+    background-position: -330px;
     height: 100%;
-    padding: 4rem 2rem;
 
     @media all and (min-width: 768px) {
-        background-position: -60px;
-        padding: 5rem;
+      background-position: -60px;
+      /* padding: 5rem; */
+    }
+
+    @media all and (min-width: 1280px) {
+      padding: 0;
+      background-position: inherit;
+    }
+
+    @media all and (min-width: 1920px) {
+      background-position: none;
     }
   }
 
@@ -27,8 +35,13 @@
     line-height: 5rem;
 
     @media all and (min-width: 768px) {
-        font-size: 7.5rem;
-        line-height: 10rem;
+      font-size: 7.5rem;
+      line-height: 10rem;
+    }
+
+    @media all and (min-width: 1280px) {
+      font-size: 10rem;
+      line-height: 13rem;
     }
   }
 
@@ -39,9 +52,9 @@
     text-align: center;
     line-height: 2.4rem;
 
-     @media all and (min-width: 768px) {
-        font-size: 2.4rem;
-        line-height: 4rem;
+    @media all and (min-width: 768px) {
+      font-size: 2.4rem;
+      line-height: 4rem;
     }
   }
 
@@ -53,21 +66,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    margin: 3rem;
 
     @media all and (min-width: 768px) {
-        width: 4.5rem;
-        height: 4.5rem;
+      width: 4.5rem;
+      height: 4.5rem;
     }
   }
 
-   &-button-scroll-down-icon {
-        width: 1.9rem;
-        height: 1rem;
+  &-button-scroll-down-icon {
+    width: 1.9rem;
+    height: auto;
 
-        @media all and (min-width: 768px) {
-        width: 2.2rem;
-        height: 1.4rem;
+    @media all and (min-width: 768px) {
+      width: 2.2rem;
     }
-    }
+  }
 }
