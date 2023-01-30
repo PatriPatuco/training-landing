@@ -10,7 +10,7 @@ Puedes visitar el proyecto a través de este enlace: https://beta.adalab.es/modu
 Si visitas la página, encontraras una web compuesta por:
 ```
    - Un pequeño menú que te acompaña en todo momento por la página.
-   - Una impagen principal como portada.
+   - Una imagen principal como portada.
    - Una primera sección de introducción al contenido.
    - Una segunda sección mostrando los beneficios.
    - Un footer con enlances a sitios de interés de la página y a redes sociales.
