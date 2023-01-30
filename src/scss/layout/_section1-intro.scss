@@ -54,20 +54,28 @@
     justify-content: center;
     border: solid 2px $orange;
     border-radius: 10rem;
+    text-decoration: none;
+    font-style: none;
+    font-size: 1.8rem;
+    font-family: $font-main;
+    font-weight: bold;
+    color: $orange;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: $orange;
+      color: $white;
+      box-shadow: 0 2px 5px 0 $light-grey;
+      scale: 110%;
+    }
 
     @media all and (min-width: 768px) {
       margin-bottom: 2rem;
+      font-size: 2rem;
     }
 
     &-text {
-      text-decoration: none;
-      font-size: 1.8rem;
-      font-family: $font-main;
-      font-weight: bold;
-      color: $orange;
-
       @media all and (min-width: 768px) {
-        font-size: 2rem;
       }
     }
   }

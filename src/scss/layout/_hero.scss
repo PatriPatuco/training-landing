@@ -13,16 +13,14 @@
 
     @media all and (min-width: 768px) {
       background-position: -60px;
-      /* padding: 5rem; */
     }
 
     @media all and (min-width: 1280px) {
-      padding: 0;
       background-position: inherit;
     }
 
     @media all and (min-width: 1920px) {
-      background-position: none;
+      background-position: center;
     }
   }
 
@@ -46,7 +44,7 @@
   }
 
   &-subtitle {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: $font-main;
     color: $white;
     text-align: center;
@@ -58,28 +56,10 @@
     }
   }
 
-  &-scroll-down {
+  &-button-scroll-down {
     background-color: $white;
-    width: 3.5rem;
-    height: 3.5rem;
+    padding: 1.3rem 1rem;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem;
-
-    @media all and (min-width: 768px) {
-      width: 4.5rem;
-      height: 4.5rem;
-    }
-  }
-
-  &-button-scroll-down-icon {
-    width: 1.9rem;
-    height: auto;
-
-    @media all and (min-width: 768px) {
-      width: 2.2rem;
-    }
+    margin: 2rem 0 4rem 0;
   }
 }

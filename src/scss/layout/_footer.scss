@@ -14,10 +14,10 @@
     text-align: left;
   }
 
-   @media all and (min-width: 1280px) {
+  @media all and (min-width: 1280px) {
     justify-content: space-evenly;
     padding: 5rem 25rem;
-   }
+  }
 
   &__menu-item {
     line-height: 3rem;
