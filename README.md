@@ -4,6 +4,20 @@
 
 ¡Hola! Bienvenidas a mi repositorio donde podréis encontrar la página que he creado para la evaluación del módulo 1 en **Adalab**. 
 
+Puedes visitar el proyecto a través de este enlace: https://beta.adalab.es/modulo-1-evaluacion-final-patricia-becerra/
+
+## ¿En qué consiste?
+Si visitas la página, encontraras una web compuesta por:
+```
+   - Un pequeño menú que te acompaña en todo momento por la página.
+   - Una impagen principal como portada.
+   - Una primera sección de introducción al contenido.
+   - Una segunda sección mostrando los beneficios.
+   - Un footer con enlances a sitios de interés de la página y a redes sociales.
+```
+   
+Además, todo el proyecto está adaptado a los principales dispositivos: móvil, tablet y desktop.
+
 ## Lenguajes utilizados
 
 Toda la página está programada con CSS y HTML. Además, para escribir todos los estilos cuenta con un Kit que incluye un motor de plantillas HTML, procesador de SASS y un servidor local entre muchas más cosas para hacer todas las tareas automatizadas.
