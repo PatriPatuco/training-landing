@@ -4,7 +4,7 @@
 
 ¡Hola! Bienvenidas a mi repositorio donde podréis encontrar la página que he creado para la evaluación del módulo 1 en **Adalab**. 
 
-Puedes visitar el proyecto a través de este enlace: https://beta.adalab.es/modulo-1-evaluacion-final-patricia-becerra/
+Puedes visitar el proyecto a través de este enlace: https://patripatuco.github.io/training-landing/
 
 ## ¿En qué consiste?
 Si visitas la página, encontraras una web compuesta por:
